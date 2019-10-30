@@ -1,0 +1,254 @@
+.bg{
+	background-color: #f0f0f0; 	
+}
+
+.bgwhite{
+	background-color: #ffffff; 	
+}
+
+.section-01{
+	padding: 30px 110px;
+}
+.section-02{	
+	padding: 0px 110px;
+}
+
+.section-04{
+	margin-top: 150px;
+	padding: 0px 110px;
+}
+
+#row-logo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	margin: 0;
+}
+#row-logo .image-wrapper{
+    position: relative;
+    z-index: 1;
+	border-radius: 50%;
+	background-color: #ffffff;
+	padding: 40px;
+	margin-top: 20px;
+}
+.menu-title{
+	color: #03879c;
+	font-size: 34px;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+
+.outer-circle{
+	height: 46px;
+	width: 46px;
+	background-color: #0481B1;
+	border-radius: 50%;
+	border-color: 1px solid #0481B1;
+}
+.outer-circle .fa{
+	color: white;
+	font-size: 20px;
+}
+.slider-wrapper{
+	position: relative;
+}
+.slider-wrapper::before{
+	position: absolute;
+	font-family: 'FontAwesome';
+	content: '\f060';
+	left: 50px;
+	top: 50%;        
+	transform: translateY(-50%);
+	color: #FFFFFF;
+	font-size: 65px;
+}
+.slider-wrapper::after{
+	position: absolute;
+	font-family: 'FontAwesome';
+	content: '\f061';
+	right: 50px;
+	top: 50%;        
+	transform: translateY(-50%);
+	color: #FFFFFF;
+	font-size: 65px;
+}
+.slider-text{
+	position: absolute;
+	bottom: 25%;
+	left: 50%;
+	transform: translateX(-50%);
+
+	font-size: 55px;
+	font-weight: 700;
+	color: #FFFFFF;
+}
+.photob{
+	border-color: #FFFFFFFF;
+	border-style: solid;
+	border-width: 20px 20px 20px 20px;
+
+}
+.rotar1{
+		
+	transform: rotate(350deg);
+}
+
+.rotar2{
+	 transform: rotate(15deg);
+}
+
+.title-text{
+	position: absolute;
+	bottom: 25%;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 25px;
+	font-weight: 700;
+	color: #36A2A9;	
+}
+
+.section-03{
+	background-color: #f0f0f0; 
+}
+.section-03 .wrapper{
+    margin-top: -145px;
+}
+.section-03 .col-custom{
+	position: relative;
+	padding-top: 60px;
+	padding-bottom: 50px;
+	width: 25%;
+	background-color: #FFFFFF;
+}
+.section-03 .col-custom::after{
+	position: absolute;
+	content: '';
+	right: 0;
+	top: 50%;  
+	transform: translateY(-50%);
+	width: 1px; 
+	height: 150px;     
+	background-color: #D0D0D0;
+}
+.section-03 .wrapper{
+	background: 
+	url('diseño/piezas/patternblancoizq.png') left center,
+	url('diseño/piezas/patternblancoderecho.png') right center;
+	background-repeat: repeat-y, repeat-y; 
+	background-size: auto;
+}
+.section-03 .col-first{
+	margin-left: 9px;
+}
+.section-03 .col-last{
+	margin-right: 9px;
+}
+.section-03 .col-last::after{
+	content: none;
+}
+.section-03 .col-custom .image-wrapper{
+	min-height: 135px;
+}
+.section-03 .col-custom .text-1{
+	color: #3EB2A7;
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+
+.section-04 .col-custom .text-1{
+	color: #034762FF;
+	font-size: 15px;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+
+.section-03 .col-custom .text-2{
+	color: #0384AC;
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+.section-03 .col-custom .text-3{
+	color: #F4AA61;
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+.section-03 .col-custom .text-4{
+	color: #F01356;
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	.slider-text{
+		bottom: 10%;
+		font-size: 30px;
+	}
+	.section-03 .wrapper{
+	    margin-top: 0;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.slider-text{
+		bottom: 10%;
+		font-size: 25px;
+	}
+	.section-03 .wrapper{
+	    margin-top: 0;
+	}
+}
+@media screen and (max-width: 767px) {
+	.section-01, .section-02{
+		padding: 0;
+	}
+	#row-logo{
+		position: relative;
+	}
+	#row-logo .image-wrapper{
+		border-radius: 50%;
+		background-color: transparent;
+		padding: 0;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.menu-title{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.outer-circle{
+		margin-bottom: 20px;
+	}
+	.slider-wrapper::before{
+		left: 10px;
+		font-size: 35px;
+	}
+	.slider-wrapper::after{
+		right: 10px;
+		font-size: 35px;
+	}
+
+	.slider-text{
+		bottom: 10%;
+		font-size: 20px;
+	}
+	.section-03 .wrapper{
+	    margin-top: 0;
+	}
+	.section-03 .col-custom{
+		width: 100%;
+	}
+	.section-03 .col-custom::after{
+		content: none;
+	}
+	.section-03 .col-first{
+		margin-left: 0;
+	}
+	.section-03 .col-last{
+		margin-right: 0;
+	}
+}
