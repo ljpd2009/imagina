@@ -139,6 +139,27 @@
 	background-repeat: repeat-y, repeat-y; 
 	background-size: auto;
 }
+
+.section-05{
+		background-color:#022D40FF;
+		padding-top: -9px;
+		padding-bottom: -9px;
+		
+}
+
+.section-05 .wrapper{
+
+	background: 
+	url('diseño/piezas/patternazulsuperior.png') center top,
+	url('diseño/piezas/patternazulinferior.png') center bottom;
+	background-repeat: repeat-x,repeat-x; 
+	background-size: auto;
+}
+
+.section-04 .col-last img{
+	padding-top: 170px;
+} 
+
 .section-03 .col-first{
 	margin-left: 9px;
 }
